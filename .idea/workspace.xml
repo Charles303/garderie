@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="15ffe2a4-3632-4617-857c-eba2848ed112" name="Default Changelist" comment="" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ComposerSettings">
+    <execution>
+      <executable />
+    </execution>
+  </component>
+  <component name="ProjectId" id="1hs9j2DFFCTGPJfxo1pCOnxqm17" />
+  <component name="PropertiesComponent">
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../wordpress2020-lavoiecharles" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\Ampps\www\garderie\espacemembres\include" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="15ffe2a4-3632-4617-857c-eba2848ed112" name="Default Changelist" comment="" />
+      <created>1600789063717</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1600789063717</updated>
+      <workItem from="1600789064911" duration="1557000" />
+      <workItem from="1600798314544" duration="2000" />
+      <workItem from="1600878838448" duration="13000" />
+      <workItem from="1604342196693" duration="6093000" />
+      <workItem from="1604369028401" duration="16000" />
+      <workItem from="1604417232312" duration="947000" />
+      <workItem from="1604501380665" duration="794000" />
+      <workItem from="1604508448819" duration="2377000" />
+      <workItem from="1604604170827" duration="10000" />
+      <workItem from="1604852841056" duration="867000" />
+      <workItem from="1604889796664" duration="1767000" />
+      <workItem from="1604938159710" duration="654000" />
+      <workItem from="1604948242860" duration="7346000" />
+      <workItem from="1605066551548" duration="709000" />
+      <workItem from="1605119837017" duration="24000" />
+      <workItem from="1605557853360" duration="5695000" />
+      <workItem from="1605627109840" duration="4702000" />
+      <workItem from="1605637722390" duration="3826000" />
+      <workItem from="1605713330152" duration="5406000" />
+      <workItem from="1605758513655" duration="619000" />
+      <workItem from="1605798933102" duration="2366000" />
+      <workItem from="1605812157013" duration="11000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+</project>
