@@ -35,9 +35,11 @@ if (isset($_POST['inscrire'])){
                 do{
                     echo '<p> <strong style="color:#17a2b8" >' .$resultat['prenom']. ' ' .$resultat['nom']. '</strong> ' .$resultat['datenaissance']. ' <strong style="color:#17a2b8" >' .$resultat['niveau_id']. '</strong></p>';
                 } while($resultat = $statement->fetch());
-
-
                 ?>
+                <div>
+                    <button class="btn btn-outline-success" ><a href="supprimer_enfant.php" style="color: red">Supprimer les enfants</a></button>
+                    <button class="btn btn-outline-success" ><a href="modifier_enfant.php">Modifier</a></button>
+                </div>
             </div>
             <div id="login-column" class="col-md-6">
                 <h3 class="text-center text-white pt-5">Inscrire votre enfant</h3>
@@ -49,7 +51,7 @@ if (isset($_POST['inscrire'])){
                             </font>
                         </div></center>
 
-                    <form id="login-form" class="form" action="enfant_inscrit.php" method="post">
+                    <form id="login-form" class="form" method="post">
 
                         <div class="form-group">
                             <label for="prenom" class="text-info">Prénom:</label><br>

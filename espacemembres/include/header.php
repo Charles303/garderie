@@ -47,7 +47,7 @@ body {
 
               <button class="btn btn-outline-success" ><a href="deconnexion.php">Se déconnecter</a></button>
               <button class="btn btn-outline-success"><a href="profil.php">Profil</a></button>
-              <button class="btn btn-outline-success"><a href="inscrire_enfant.php">Inscrire un enfant</a></button>
+              <button class="btn btn-outline-success"><a href="inscrire_enfant.php">Mes enfants</a></button>
               <button class="btn btn-outline-success"><a href="cadeaux.php">Liste des cadeaux</a></button>
 
 

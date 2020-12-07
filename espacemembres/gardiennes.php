@@ -12,11 +12,11 @@ require 'include/start_bdd.php';
             <?php
             require ("include/database.php");
             $db = Database::connect();
-            $statement = $db->query("SELECT prenom, nom, garderie_id, niveau, session, annee FROM gardiennes INNER JOIN niveaux ON gardiennes.id = niveaux.gardienne_id");
+            $statement = $db->query("SELECT prenom, nom, note, garderie_id, niveau, session, annee FROM gardiennes INNER JOIN niveaux ON gardiennes.id = niveaux.gardienne_id");
             $resultat = $statement->fetch();
 
             do{
-                echo '<p> <strong style="color:#17a2b8" >' .$resultat['prenom']. ' ' .$resultat['nom']. '</strong> Dans la garderie<strong style="color:#17a2b8" > ' .$resultat['garderie_id']. '</strong> <text>S\'occupe du niveau</text><strong style="color:#17a2b8" > ' .$resultat['niveau']. '</strong>  </p>';
+                echo '<p> <strong style="color:#17a2b8" >' .$resultat['prenom']. ' ' .$resultat['nom']. '</strong> Dans la garderie<strong style="color:#17a2b8" > ' .$resultat['garderie_id']. '</strong> <text>S\'occupe du niveau</text><strong style="color:#17a2b8" > ' .$resultat['niveau']. '</strong> est noté ' .$resultat['note']. '  </p>';
             } while($resultat = $statement->fetch());
 
 

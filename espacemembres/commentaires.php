@@ -63,6 +63,14 @@ require 'include/start_bdd.php';
                 $texte = $_POST['texte'];
 
                 ?>
+                <label for="note">Note (Entre 1 et 5) :</label>
+                <select name="note" id="note">
+                    <option>1</option>
+                    <option>2</option>
+                    <option>3</option>
+                    <option>4</option>
+                    <option>5</option>
+                </select>
             <input type="submit" name="submitgardienne" id="submitgardienne" value="Envoyer le commentaire"/>
             </form>
         </div>
@@ -70,9 +78,10 @@ require 'include/start_bdd.php';
 </div>
 <?php
 if (isset($_POST['submitgardienne'])){
-    $requete = $bdd->prepare('INSERT INTO garderie.commentaires(texte, gardienne_id) VALUES(:texte, :gardienne_id)');
+    $requete = $bdd->prepare('INSERT INTO garderie.commentaires(texte, note, gardienne_id) VALUES(:texte, :note, :gardienne_id)');
 
     $requete->bindvalue(':texte', $_POST['texte']);
+    $requete->bindvalue(':note', $_POST['note']);
     $requete->bindvalue(':gardienne_id', $_POST['gardiennes']);
 
     $requete->execute();
