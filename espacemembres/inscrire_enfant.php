@@ -33,12 +33,11 @@ if (isset($_POST['inscrire'])){
                 $resultat = $statement->fetch();
 
                 do{
-                    echo '<p> <strong style="color:#17a2b8" >' .$resultat['prenom']. ' ' .$resultat['nom']. '</strong> ' .$resultat['datenaissance']. ' <strong style="color:#17a2b8" >' .$resultat['niveau_id']. '</strong></p>';
+                    echo '<p> <strong style="color:#17a2b8" >' .$resultat['prenom']. ' ' .$resultat['nom']. '</strong> ' .$resultat['datenaissance']. ' <strong style="color:#17a2b8" > niveau ' .$resultat['niveau_id']. '</strong></p>';
                 } while($resultat = $statement->fetch());
                 ?>
                 <div>
                     <button class="btn btn-outline-success" ><a href="supprimer_enfant.php" style="color: red">Supprimer les enfants</a></button>
-                    <button class="btn btn-outline-success" ><a href="modifier_enfant.php">Modifier</a></button>
                 </div>
             </div>
             <div id="login-column" class="col-md-6">
